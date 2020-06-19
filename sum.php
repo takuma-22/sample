@@ -10,7 +10,7 @@ echo sum(4);
 function f($a, $b){
       echo $a+$b;
  }
-echo f(298,855);
+echo f(1,2);
 ?>
 <?php
 //課題３
@@ -28,9 +28,9 @@ echo count($arr);
      }
  //どうしたらいいかわからない・・・・
  }
-
  return $max_number;
  }
+ echo max_array(array(1,2,3,4,8));
 ?>
 
 <?php
